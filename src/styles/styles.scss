@@ -1,0 +1,116 @@
+section {
+  .left-side {
+    background: url("../Images/col8BG.png");
+    height: 100vh;
+    h1 {
+      font-size: 20px;
+      margin-left: 18em;
+      color: #fff;
+    }
+    .button {
+      margin-top: 41em;
+      margin-left: 27em;
+      .btn-secondary {
+        font-size: 18px;
+        font-weight: 600;
+        color: aqua;
+        text-decoration: none;
+      }
+      .btn-secondary:hover {
+        color: #fff;
+      }
+    }
+  }
+  .right-side {
+    background: url("../Images/col4BG.png");
+    // height: 100vh;
+    h2 {
+      font-size: 24px;
+      font-weight: 700;
+      color: #fff;
+    }
+    .cta {
+      margin-top: 10em;
+      p.large {
+        font-size: 18px;
+        font-weight: 600;
+        color: #fff;
+      }
+    }
+    .intro {
+      margin-top: 10em;
+      h4 {
+        color: #fff;
+        span {
+          color: aqua;
+        }
+      }
+      p.small {
+        font-size: 14px;
+        font-weight: normal;
+        color: #fff;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 767px) {
+  section {
+    background: url("../Images/mobileBackground.png") !important;
+    .left-side {
+      background: url("../Images/Frame\ 690.png");
+      height: 253px;
+      img {
+        display: block !important;
+      }
+      h1 {
+        display: none !important;
+      }
+      .button {
+        display: none !important;
+        .btn-secondary {
+          font-size: 20px;
+          font-weight: 700;
+        }
+      }
+    }
+
+    .right-side {
+      padding-bottom: 2rem;
+      h2 {
+        font-size: 15px;
+      }
+      .cta {
+        margin-top: 5px !important;
+        p.large {
+          font-size: 12px;
+        }
+      }
+      .intro {
+        margin-top: 5px !important;
+        p.small {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+
+  section.mobileOptimization {
+    display: block !important;
+    p {
+      font-size: 20px;
+      font-weight: 400;
+      color: #fff;
+    }
+
+    .btn-secondary {
+      font-size: 18px;
+      font-weight: 600;
+      color: aqua;
+      text-decoration: none;
+    }
+  }
+}

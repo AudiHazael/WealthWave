@@ -1,0 +1,53 @@
+section .left-side {
+  background: url("../Images/col8BG.png");
+  height: 100vh;
+}
+section .left-side h1 {
+  font-size: 20px;
+  margin-left: 18em;
+  color: #fff;
+}
+section .left-side .button {
+  margin-top: 41em;
+  margin-left: 27em;
+}
+section .left-side .button .btn-secondary {
+  font-size: 18px;
+  font-weight: 600;
+  color: aqua;
+  text-decoration: none;
+}
+section .left-side .button .btn-secondary:hover {
+  color: #fff;
+}
+section .right-side {
+  background: url("../Images/col4BG.png");
+  height: 100vh;
+}
+section .right-side h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+section .right-side .cta {
+  margin-top: 10em;
+}
+section .right-side .cta p.large {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+section .right-side .intro {
+  margin-top: 10em;
+}
+section .right-side .intro h4 {
+  color: #fff;
+}
+section .right-side .intro h4 span {
+  color: aqua;
+}
+section .right-side .intro p.small {
+  font-size: 14px;
+  font-weight: normal;
+  color: #fff;
+}/*# sourceMappingURL=styles.css.map */
