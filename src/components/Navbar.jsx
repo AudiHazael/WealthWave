@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
+import '../styles/styles.scss'
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+    <nav className="navbar navbar-expand-lg navbar-dark px-3">
       <Link className="navbar-brand" to="/">WealthWave</Link>
       <div className="collapse navbar-collapse">
         <ul className="navbar-nav ms-auto">
