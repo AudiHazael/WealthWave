@@ -22,6 +22,9 @@ section {
       .btn-secondary:hover {
         color: #fff;
       }
+      img {
+        display: none;
+      }
     }
   }
   .right-side {
@@ -65,6 +68,9 @@ section {
     background: url("../Images/mobileBackground.png") !important;
     .left-side {
       background: url("../Images/Frame\ 690.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
       height: 253px;
       width: 100vw;
       img {
