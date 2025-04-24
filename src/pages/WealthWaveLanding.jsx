@@ -68,7 +68,7 @@ function WealthWaveLanding() {
           </div>
         </div>
 
-        <section className="mobileOptimization d-none pt-4 pb-4">
+        <section className="mobileOptimization d-none pt-4 pb-4 mt-4 mb-4">
           <div className="container">
             <p className="large pb-4">
               To know more about WealthWave Global Network and EBC Forex
