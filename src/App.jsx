@@ -1,14 +1,13 @@
-import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import WealthWaveLanding from './pages/WealthWaveLanding'; // Make sure this is imported!!
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import WealthWaveLanding from "./pages/WealthWaveLanding"; // Make sure this is imported!!
 
 function App() {
   return (
     <>
-      <Navbar />
       <Routes>
         <Route path="/" element={<WealthWaveLanding />} />
         <Route path="/home" element={<Home />} />
@@ -20,5 +19,3 @@ function App() {
 }
 
 export default App;
-
-

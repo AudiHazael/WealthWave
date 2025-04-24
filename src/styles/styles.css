@@ -1,5 +1,12 @@
+.navbar {
+  background-color: #101720;
+}
+
 section .left-side {
   background: url("../Images/col8BG.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 100vh;
 }
 section .left-side h1 {
@@ -20,9 +27,14 @@ section .left-side .button .btn-secondary {
 section .left-side .button .btn-secondary:hover {
   color: #fff;
 }
+section .left-side .button img {
+  display: none;
+}
 section .right-side {
   background: url("../Images/col4BG.png");
-  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 section .right-side h2 {
   font-size: 24px;
@@ -50,4 +62,77 @@ section .right-side .intro p.small {
   font-size: 14px;
   font-weight: normal;
   color: #fff;
+}
+
+section .hero {
+  background: url("../Images/Background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.testimonial .row .avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+  section {
+    background: url("../Images/mobileBackground.png") !important;
+  }
+  section .left-side {
+    background: url("../Images/Frame 690.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 253px;
+    width: 100vw;
+  }
+  section .left-side img {
+    display: block !important;
+  }
+  section .left-side h1 {
+    display: none !important;
+  }
+  section .left-side .button {
+    display: none !important;
+  }
+  section .left-side .button .btn-secondary {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  section .right-side {
+    padding-bottom: 2rem;
+  }
+  section .right-side h2 {
+    font-size: 15px;
+  }
+  section .right-side .cta {
+    margin-top: 5px !important;
+  }
+  section .right-side .cta p.large {
+    font-size: 14px;
+  }
+  section .right-side .intro {
+    margin-top: 5px !important;
+  }
+  section .right-side .intro p.small {
+    font-size: 12px;
+  }
+  section.mobileOptimization {
+    display: block !important;
+  }
+  section.mobileOptimization p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+  }
+  section.mobileOptimization .btn-secondary {
+    font-size: 18px;
+    font-weight: 600;
+    color: aqua;
+    text-decoration: none;
+  }
 }/*# sourceMappingURL=styles.css.map */

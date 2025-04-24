@@ -16,7 +16,7 @@ function WealthWaveLanding() {
         <link rel="canonical" href="https://your-website.com/wealthwave" />
       </Helmet>
 
-      <section className="container-fluid p-0">
+      <section className="cover-page container-fluid p-0">
         <div className="row p-0 m-0">
           {/* Left Side */}
           <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 left-side m-0">
@@ -57,24 +57,25 @@ function WealthWaveLanding() {
                   href="https://wa.me/2348067370005"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-info text-white px-4">
+                  className="btn btn-info text-white fw-bold px-4">
                   CONTACT US
                 </a>
               </div>
             </div>
           </div>
         </div>
-      </section>
 
-      <section className="mobileOptimization d-none pt-4 pb-4">
-        <div className="container">
-          <p className="large pb-4">
-            To know more about WealthWave Global Network and EBC Forex Strategy
-          </p>
-          <Link to="/home" className="btn-secondary  m-0">
-            VISIT OUR WEBSITE !
-          </Link>
-        </div>
+        <section className="mobileOptimization d-none pt-4 pb-4">
+          <div className="container">
+            <p className="large pb-4">
+              To know more about WealthWave Global Network and EBC Forex
+              Strategy
+            </p>
+            <Link to="/home" className="btn-secondary  m-0">
+              VISIT OUR WEBSITE !
+            </Link>
+          </div>
+        </section>
       </section>
     </div>
   );

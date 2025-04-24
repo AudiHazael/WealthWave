@@ -1,9 +1,33 @@
+/* === Base Reset & Mobile-First Setup === */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  // font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+}
+
 .navbar {
   background-color: #101720;
 }
 section {
   .left-side {
     background: url("../Images/col8BG.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
     h1 {
       font-size: 20px;
@@ -29,6 +53,9 @@ section {
   }
   .right-side {
     background: url("../Images/col4BG.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     // height: 100vh;
     h2 {
       font-size: 24px;
@@ -60,11 +87,79 @@ section {
   }
 }
 
+// Home Page
+.hero {
+  background: url("../Images/Background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 75vh;
+  color: #fff;
+  padding: 5rem;
+  h1 {
+    font-size: 64px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  p {
+    font-size: 24px;
+  }
+}
+
+.about-us {
+  background-color: #fdfdfd;
+}
+
+.branding {
+  background-color: #fdfdfd;
+}
+
+.testimonial {
+  .row {
+    .avatar {
+      vertical-align: middle;
+      width: 50px;
+      height: 50px;
+      border-radius: 40%;
+    }
+  }
+}
+
+.footer {
+  background: url("../Images/Background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+
+  ul {
+    list-style: none;
+    a {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #a3daff;
+      text-decoration: none;
+    }
+  }
+
+  .copyright {
+    a {
+      color: #a3daff;
+      text-decoration: none;
+    }
+  }
+}
+
+// Media Query
 @media only screen and (max-width: 1024px) {
 }
 
 @media only screen and (max-width: 767px) {
-  section {
+  .cover-page {
     background: url("../Images/mobileBackground.png") !important;
     .left-side {
       background: url("../Images/Frame\ 690.png");
@@ -123,4 +218,42 @@ section {
       text-decoration: none;
     }
   }
+
+  // Home Page
+  .hero {
+    height: 50vh;
+    padding: 1rem;
+    h1 {
+      font-size: 32px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+
+  .about-us {
+    background-color: #fdfdfd;
+  }
+
+  .strategies {
+    .card {
+      margin-left: auto;
+      margin-right: auto;
+      width: auto !important;
+      margin: 1rem;
+    }
+  }
+
+  // footer {
+  //   .footHero {
+  //     display: flex;
+  //     flex-direction: column;
+  //     justify-content: center;
+  //     align-items: center;
+  //     text-align: center;
+  //   }
+  // }
 }
