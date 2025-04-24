@@ -1,4 +1,11 @@
-
+/* === Base Reset & Mobile-First Setup === */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 html {
   // font-size: 16px;
@@ -154,6 +161,7 @@ section {
 @media only screen and (max-width: 767px) {
   .cover-page {
     background: url("../Images/mobileBackground.png") !important;
+    height: 100%;
     .left-side {
       background: url("../Images/Frame\ 690.png");
       background-size: cover;
@@ -201,7 +209,7 @@ section {
         font-weight: 400;
         color: #fff;
       }
-  
+
       .btn-secondary {
         font-size: 18px;
         font-weight: 600;
@@ -210,7 +218,6 @@ section {
       }
     }
   }
-
 
   // Home Page
   .hero {
