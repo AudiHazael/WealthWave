@@ -1,11 +1,4 @@
-/* === Base Reset & Mobile-First Setup === */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+
 
 html {
   // font-size: 16px;
@@ -201,23 +194,23 @@ section {
         }
       }
     }
+    section.mobileOptimization {
+      display: block !important;
+      p {
+        font-size: 20px;
+        font-weight: 400;
+        color: #fff;
+      }
+  
+      .btn-secondary {
+        font-size: 18px;
+        font-weight: 600;
+        color: aqua;
+        text-decoration: none;
+      }
+    }
   }
 
-  section.mobileOptimization {
-    display: block !important;
-    p {
-      font-size: 20px;
-      font-weight: 400;
-      color: #fff;
-    }
-
-    .btn-secondary {
-      font-size: 18px;
-      font-weight: 600;
-      color: aqua;
-      text-decoration: none;
-    }
-  }
 
   // Home Page
   .hero {
