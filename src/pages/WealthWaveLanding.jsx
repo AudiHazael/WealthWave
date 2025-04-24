@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet-async";
 import "../styles/styles.scss";
 // import "../styles/responsive-setup.css";
 import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 function WealthWaveLanding() {
   return (
@@ -15,6 +16,8 @@ function WealthWaveLanding() {
         />
         <link rel="canonical" href="https://your-website.com/wealthwave" />
       </Helmet>
+
+      <Navbar />
 
       <section className="cover-page container-fluid p-0">
         <div className="row p-0 m-0">
