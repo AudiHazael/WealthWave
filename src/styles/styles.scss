@@ -12,7 +12,9 @@ body {
 .navbar {
   background-color: #101720;
 }
-section {
+.cover-page {
+  margin: 0;
+  overflow-x: hidden;
   .left-side {
     background: url("../Images/col8BG.png");
     background-size: cover;
@@ -151,6 +153,7 @@ section {
 @media only screen and (max-width: 767px) {
   .cover-page {
     background: url("../Images/mobileBackground.png") !important;
+    margin-bottom: 0;
     .left-side {
       background: url("../Images/Frame\ 690.png");
       background-size: cover;
@@ -191,7 +194,7 @@ section {
         }
       }
     }
-    section.mobileOptimization {
+    .mobileOptimization {
       display: block !important;
       p {
         font-size: 20px;
@@ -236,13 +239,26 @@ section {
     }
   }
 
-  // footer {
-  //   .footHero {
-  //     display: flex;
-  //     flex-direction: column;
-  //     justify-content: center;
-  //     align-items: center;
-  //     text-align: center;
-  //   }
-  // }
+  .footer {
+    .footHero,
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  // Learning Page
+  .levels{
+    .container{
+      .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
 }

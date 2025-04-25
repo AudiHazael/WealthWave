@@ -4,7 +4,7 @@ import "../styles/styles.scss";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
-function About() {
+function Blog() {
   return (
     <div>
       <Helmet>
@@ -19,8 +19,8 @@ function About() {
       <Navbar />
 
       <div className="container mt-5">
-        <h1>About Page</h1>
-        <p>Learn more about this project template!</p>
+        <h1>Blog Page</h1>
+        <p>Read our Articles and Research Documents</p>
       </div>
 
       <Footer />
@@ -28,4 +28,4 @@ function About() {
   );
 }
 
-export default About;
+export default Blog;

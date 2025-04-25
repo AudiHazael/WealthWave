@@ -50,7 +50,7 @@ function Footer() {
 
         <div className="copyright p-0 m-0 d-flex justify-content-center">
           <p className="pt-2">
-            © Copyrights 2025 SoyJoy | Designed by{" "}
+            © Copyrights 2025 WGN | Designed by{" "}
             <a href="https://wa.link/8k0f7s" target="_blank" rel="nofollow">
               Hazael Audi
             </a>

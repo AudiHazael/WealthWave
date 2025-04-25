@@ -9,7 +9,7 @@ function WealthWaveLanding() {
   return (
     <div>
       <Helmet>
-        <title>WealthWave | EBC Forex Strategy</title>
+        <title>WealthWave | EBC EDGE Forex Strategy</title>
         <meta
           name="description"
           content="Master the EBC Forex Strategy with WealthWave Global Network and achieve financial freedom."
@@ -24,7 +24,7 @@ function WealthWaveLanding() {
           {/* Left Side */}
           <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 left-side m-0">
             <div className="container">
-              <h1 className="mt-2 pt-2">Master EBC FOREX STRATEGY</h1>
+              <h1 className="mt-2 pt-2">Master EBC EDGE FOREX STRATEGY</h1>
               <div className="button">
                 <Link to="/home" className="btn-secondary px-4">
                   VISIT OUR WEBSITE !
@@ -36,7 +36,7 @@ function WealthWaveLanding() {
           {/* Right Side */}
           <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 right-side m-0">
             <div className="container d-flex flex-column justify-content-center align-item-center">
-              <h2 className="mt-4 pt-4">EBC STRATEGY</h2>
+              <h2 className="mt-4 pt-4">EBC EDGE STRATEGY</h2>
 
               <div className="intro">
                 <h4>
@@ -68,17 +68,15 @@ function WealthWaveLanding() {
           </div>
         </div>
 
-        <section className="mobileOptimization d-none pt-4 pb-4 mt-4 mb-4">
-          <div className="container">
-            <p className="large pb-4">
-              To know more about WealthWave Global Network and EBC Forex
-              Strategy
-            </p>
-            <Link to="/home" className="btn-secondary  m-0">
-              VISIT OUR WEBSITE !
-            </Link>
-          </div>
-        </section>
+        <div className="container mobileOptimization d-none pt-4 pb-4 mt-4 mb-4">
+          <p className="large pb-4">
+            To know more about WealthWave Global Network and EBC EDGE Forex
+            Strategy
+          </p>
+          <Link to="/home" className="btn-secondary  m-0">
+            VISIT OUR WEBSITE !
+          </Link>
+        </div>
       </section>
     </div>
   );

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
-import { HelmetProvider } from 'react-helmet-async';  // <-- Import HelmetProvider
+import { HelmetProvider } from 'react-helmet-async';  
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/styles.scss';
@@ -14,7 +14,7 @@ AOS.init();
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-      <HelmetProvider> {/* <-- Wrap your App inside HelmetProvider */}
+      <HelmetProvider> 
         <App />
       </HelmetProvider>
     </BrowserRouter>
