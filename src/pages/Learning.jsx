@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet-async";
 import "../styles/styles.scss";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import AccordionFlush from "../components/accordion";
 
 function Learning() {
   return (
@@ -52,7 +53,7 @@ function Learning() {
               <iframe
                 width="100%"
                 height="315"
-                src="https://www.youtube.com/embed/VIDEO_ID"
+                src="https://www.youtube.com/embed/aHWSweOiAcU?si=1RidelptaZ0ATDg2"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -101,6 +102,8 @@ function Learning() {
           </a>
         </div>
       </section>
+
+      <AccordionFlush />
 
       <Footer />
     </div>
