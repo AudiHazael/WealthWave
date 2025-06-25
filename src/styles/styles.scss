@@ -9,9 +9,18 @@ body {
   background-color: #fff;
 }
 
-.navbar {
-  background-color: #101720;
+nav {
+  // background-image: url("/images/heroBgOne.png");
+  background: #000000;
+
+  .navbar-brand {
+    img {
+      width: 100px;
+      padding: 1rem 0;
+    }
+  }
 }
+
 .cover-page {
   margin: 0;
   overflow-x: hidden;
@@ -251,9 +260,9 @@ body {
   }
 
   // Learning Page
-  .levels{
-    .container{
-      .row{
+  .levels {
+    .container {
+      .row {
         display: flex;
         flex-direction: column;
         justify-content: center;

@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Learning from "./pages/Learning"; // ✅ Capitalized
+import Learning from "./pages/Learning";
 import Blog from "./pages/Blog";
 import WealthWaveLanding from "./pages/WealthWaveLanding";
 

@@ -1,7 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import "../styles/styles.scss";
-// import "../styles/responsive-setup.css";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
